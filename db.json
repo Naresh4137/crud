@@ -1,0 +1,54 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Virat Kohliii",
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "name": "Rohit Sharma",
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "name": "MS Dhoni",
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "name": "Kane williamson",
+      "country": "New Zealand"
+    },
+    {
+      "id": 5,
+      "name": "David Warner",
+      "country": "Australia"
+    },
+    {
+      "id": 6,
+      "name": "Glenn Maxiiii",
+      "country": "Australia"
+    },
+    {
+      "id": 7,
+      "name": "Jos Buttler",
+      "country": "England"
+    },
+    {
+      "id": 8,
+      "name": "Babar Azam",
+      "country": "Pakisthan"
+    },
+    {
+      "id": 9,
+      "name": "Rizwan",
+      "country": "Pakisthan"
+    },
+    {
+      "name": "Naresh",
+      "country": "Country",
+      "id": 10
+    }
+  ]
+}
