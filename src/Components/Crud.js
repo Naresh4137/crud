@@ -28,7 +28,7 @@ const Crud = () => {
 
   return (
     <div className='container mt-4'>
-        <div className='text-end'><button onClick={()=>{navigate('/add')}} className='btn btn-info'>Add +</button></div>
+        <div className='text-end'><button onClick={()=>{navigate('/add')}} className='btn btn-primary'>Add +</button></div>
         <table className='table table-striped'>
         <thead>
           <tr>
@@ -45,7 +45,8 @@ const Crud = () => {
               <td>{d.name}</td>
               <td>{d.country}</td>
               <td>
-                <Link to={`/update/${d.id}`} className='btn btn-primary mx-2'>Update</Link>
+                <Link to={`/read/${d.id}`} className='btn btn-secondary mx-2'>View</Link>
+                <Link to={`/update/${d.id}`} className='btn btn-info mx-2'>Update</Link>
                 <button onClick={e=>handleSubmit(d.id)} className='btn btn-danger mx-2'>Del</button>
              </td>
               
